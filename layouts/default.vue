@@ -1,5 +1,11 @@
 <template>
   <v-app>
-    <slot />
+    <!-- WORKS -->
+    <HotDeals class="mt-8" />
+    <!-- DOESN'T WORK -->
+    <v-main class="py-4">
+      <HotDeals class="mt-8" />
+      <slot />
+    </v-main>
   </v-app>
 </template>
