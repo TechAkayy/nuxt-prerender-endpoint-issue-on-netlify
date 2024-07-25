@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     //...
   ],
   vite: {
+    mode: 'development',
     server: {
       cors: true, // Only for dev
     },
