@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div></div>
+  <div>
+    <HotDeals class="mt-8" />
+  </div>
 </template>
 
 <style scoped></style>
