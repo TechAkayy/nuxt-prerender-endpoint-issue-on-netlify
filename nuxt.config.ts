@@ -4,6 +4,10 @@ import vuetify, {transformAssetUrls} from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
   devtools: {enabled: true},
 
+  nitro: {
+    preset: 'netlify-static',
+  },
+
   future: {
     compatibilityVersion: 4,
   },
