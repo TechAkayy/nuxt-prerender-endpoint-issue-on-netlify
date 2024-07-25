@@ -12,7 +12,7 @@
 </script>
 <template>
   <div>
-    <span>Total items: {{ products.length }}</span>
+    <p>Total products: {{ products.length }}</p>
   </div>
 </template>
 <style scoped></style>

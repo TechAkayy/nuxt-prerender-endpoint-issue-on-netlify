@@ -1,8 +1,11 @@
 <template>
-  <v-app>
-    <HotDeals class="mt-8" />
-    <v-main class="py-4">
+  <div class="p-4">
+    <nav class="space-x-4">
+      <NuxtLink class="underline" to="/">Home</NuxtLink>
+      <NuxtLink class="underline" to="products">Products</NuxtLink>
+    </nav>
+    <main class="py-4">
       <slot />
-    </v-main>
-  </v-app>
+    </main>
+  </div>
 </template>
