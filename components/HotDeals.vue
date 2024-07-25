@@ -19,7 +19,7 @@
   }
 </script>
 <template>
-  <div v-if="products">
+  <div>
     <span>Total items: {{ products.length }}</span>
   </div>
 </template>
