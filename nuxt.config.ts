@@ -13,8 +13,8 @@ export default defineNuxtConfig({
   },
 
   experimental: {
-    renderJsonPayloads: true,
-    payloadExtraction: false,
+    renderJsonPayloads: false,
+    payloadExtraction: true,
     sharedPrerenderData: false,
   },
 
