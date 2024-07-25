@@ -5,7 +5,7 @@ import * as components from 'vuetify/components'
 export default defineNuxtPlugin((app) => {
   const vuetify = createVuetify({
     components,
-    ssr: true,
+    ssr: import.meta.server,
   })
   app.vueApp.use(vuetify)
 })
