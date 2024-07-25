@@ -9,14 +9,6 @@
   prerenderRoutes(`/api/store`)
 
   const {products} = data.value
-
-  if (error.value) {
-    console.log(error.value)
-    throw createError({
-      ...error.value,
-      statusMessage: `Couldn't fetch products.`,
-    })
-  }
 </script>
 <template>
   <div>
