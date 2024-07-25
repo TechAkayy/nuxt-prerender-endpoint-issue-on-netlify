@@ -38,5 +38,5 @@ export default defineNuxtConfig({
       minify: false,
     },
   },
-  sourcemap: true,
+  // sourcemap: true,
 })
