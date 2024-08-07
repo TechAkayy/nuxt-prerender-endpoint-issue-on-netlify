@@ -1,19 +1,7 @@
-<script setup lang="ts">
-  // const {data: jobs, error} = await useFetch('https://api.nuxt.com/jobs')
+<script setup lang="ts"></script>
 
-  const {data, error} = await useFetch('/api/store', {
-    key: 'articles',
-    server: true,
-    responseType: 'json',
-  })
-
-  prerenderRoutes(`/api/store`)
-
-  const {products} = data.value
-</script>
 <template>
-  <div>
-    <p>Total products: {{ products.length }}</p>
-  </div>
+  <p>Open your browser console, navigate to the Products page!</p>
 </template>
+
 <style scoped></style>
