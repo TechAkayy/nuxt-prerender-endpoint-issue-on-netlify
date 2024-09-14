@@ -3,7 +3,7 @@
 
   const {data} = await useFetch('/api/store')
 
-  // prerenderRoutes(`/api/store`)
+  prerenderRoutes(`/api/store`)
 
   const {products} = data.value
 </script>
