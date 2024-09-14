@@ -21,11 +21,6 @@ export default defineNuxtConfig({
   // future: {
   //   compatibilityVersion: 4,
   // },
-  experimental: {
-    renderJsonPayloads: false,
-    payloadExtraction: false,
-    sharedPrerenderData: false,
-  },
 
-  modules: ["@nuxtjs/tailwindcss"]
+  modules: ['@nuxtjs/tailwindcss'],
 })
