@@ -2,12 +2,12 @@
   const route = useRoute()
   const links = reactive([
     {
-      name: 'Products',
+      name: 'Home',
       url: '/',
       active: computed(() => route.fullPath === '/'),
     },
     {
-      name: 'Home',
+      name: 'Products',
       url: '/products',
       active: computed(() => route.fullPath === '/products'),
     },
