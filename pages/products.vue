@@ -1,11 +1,7 @@
 <script setup lang="ts">
   // const {data: jobs, error} = await useFetch('https://api.nuxt.com/jobs')
 
-  const {data, error} = await useFetch('/api/store', {
-    key: 'articles',
-    server: true,
-    responseType: 'json',
-  })
+  const {data, error} = await useFetch('/api/store')
 
   prerenderRoutes(`/api/store`)
 
